@@ -1,0 +1,5 @@
+.banner__img {
+    background: url(../img/img-cabecalho-med.jpg) no-repeat center / cover ;
+    height: 50vh;
+    width: 100%;
+}

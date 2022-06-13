@@ -1,0 +1,28 @@
+.atendimento__foto {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.atendimento__foto--img {
+    background-image: url(../img/foto-atendimento.jpg);
+}
+
+@media screen and (min-width:425px) {
+    .atendimento__foto {
+        margin-bottom: 1rem;
+        margin-right: 0;
+        flex: 0 0 280px;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .atendimento__foto {
+        margin-bottom: 0;
+        margin-right: 3rem;
+        flex: 0 0 400px;
+        height: 400px;
+    }
+}

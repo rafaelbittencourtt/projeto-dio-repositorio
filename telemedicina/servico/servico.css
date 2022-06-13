@@ -1,0 +1,32 @@
+.servico {
+    background-color: #EDEEF0;
+ /*   border: 2px solid #004C8f; */
+    border-radius: 6px;
+    margin-right: 1rem;
+    padding: 1rem;
+    flex: 0 0 230px;
+}
+
+@media screen and (min-width: 0px) {
+    .servico {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .servico {
+        margin: 1rem ;
+    }
+    .servico:last-child {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .servico {
+        padding: 1rem;
+    }
+    .servico:last-child {
+        margin-right: 0rem;
+    }
+}

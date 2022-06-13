@@ -1,0 +1,19 @@
+.banner__info__texto {
+    color: #515151;
+    font-size: 1.5rem;
+    margin: 0;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid #004C8F;
+}
+
+@media screen and (min-width: 0px) {
+    .banner__info__texto {
+        font-size: 1.1rem;
+    } 
+}
+
+@media screen and (min-width: 442px) {
+    .banner__info__texto {
+        font-size: 1.5rem;
+    }
+}

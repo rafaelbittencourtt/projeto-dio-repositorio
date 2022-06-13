@@ -1,0 +1,26 @@
+.atendimento__item {
+    color: #515151;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+@media screen and (min-width: 425px) {
+    .atendimento__item {
+        font-size: 1rem;
+        width: 70%;
+        text-align: center;
+        margin:auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .atendimento__item {
+        font-size: 1.3rem;
+        text-align: left;
+        margin: 0 0 0.5rem 0;
+        display: inline-block;
+        width: 100%;
+    }
+}

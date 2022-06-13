@@ -1,0 +1,23 @@
+.cabecalho__contato__zap {
+    width: 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+}
+
+.cabecalho__contato__zap--foto {
+    background-image: url('../img/WhatsApp.png');
+}
+
+@media screen and (min-width:0px) {
+    .cabecalho__contato__zap--foto {
+        background-image: none;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .cabecalho__contato__zap--foto {
+        background-image: url('../img/WhatsApp.png');
+    }
+}
+

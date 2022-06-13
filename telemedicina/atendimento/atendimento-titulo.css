@@ -1,0 +1,21 @@
+.atendimento__titulo {
+    border-bottom: 1px solid #515151;
+    color:  #004C8F;
+    display:inline;
+    font-size: 2.5rem;
+}
+
+
+@media screen and (min-width: 425px) {
+    .atendimento__titulo {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .atendimento__titulo {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+}
